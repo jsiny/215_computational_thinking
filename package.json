@@ -1,0 +1,26 @@
+{
+  "name": "215",
+  "version": "1.0.0",
+  "description": "Here are my exercises, assessments and practice problems from [Launch School](https://launchschool.com)'s LS 215 course \"Computational Thinking and Problem Solving\".",
+  "main": "draft.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsiny/215_computational_thinking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsiny/215_computational_thinking/issues"
+  },
+  "homepage": "https://github.com/jsiny/215_computational_thinking#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "^2.20.1"
+  }
+}

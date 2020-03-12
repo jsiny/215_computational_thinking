@@ -38,17 +38,17 @@ rules:
 
 
 function isBlockWord(string) {
-  let first  = ['B', 'X', 'D', 'C', 'N', 'G', 'R', 'F', 'J', 'H', 'V', 'L', 'Z'];
-  let second = ['O', 'K', 'Q', 'P', 'A', 'T', 'E', 'S', 'W', 'U', 'I', 'Y', 'M'];
+  let first = ['B', 'X', 'D', 'C', 'N', 'G', 'R', 'F', 'J', 'H', 'V', 'L', 'Z'];
+  let sec   = ['O', 'K', 'Q', 'P', 'A', 'T', 'E', 'S', 'W', 'U', 'I', 'Y', 'M'];
   let str = string.toUpperCase();
 
   for (let i = 0, j; i < str.length; i += 1) {
     j = first.indexOf(str[i]);
-    if (j === -1) j = second.indexOf(str[i]);
+    if (j === -1) j = sec.indexOf(str[i]);
     if (j === -1) return false;
 
     first.splice(j, 1);
-    second.splice(j, 1);    
+    sec.splice(j, 1);    
   }
 
   return true;
